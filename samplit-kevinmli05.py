@@ -1,4 +1,4 @@
-# samplit: randomly sample bout 1% of lines from file
+# samplit: random 1 percent sampler - targer version
 import sys
 import random
 
