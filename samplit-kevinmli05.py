@@ -1,4 +1,6 @@
-# samplit: random 1 percent sampler - targer version
+
+# samplit: prints about 1% of lines(feature version)
+
 import sys
 import random
 

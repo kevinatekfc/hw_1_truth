@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+# samplit: random 1 percent sampler - targer version
+=======
+# samplit: prints about 1% of lines(feature version)
+>>>>>>> hw_1b
+import sys
+import random
+
+filename = sys.argv[1]
+file = open(filename)
+
+for line in file:
+    number = random.random()
+    if number < 0.01:
+        print(line, end="")
+
+file.close()
